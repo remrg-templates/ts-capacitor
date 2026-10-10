@@ -5,7 +5,7 @@ import globals from 'globals';
 
 const eslintConfig = [
 	{
-		ignores: ['node_modules', 'dist', 'coverage'],
+		ignores: ['node_modules', 'dist', 'coverage', 'android', 'ios'],
 	},
 	{
 		files: ['**/*.ts', '**/*.tsx'],

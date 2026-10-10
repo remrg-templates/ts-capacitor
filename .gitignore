@@ -44,3 +44,17 @@ scratch/
 playwright-report/
 test-results/
 blob-report/
+
+# Local native build artifacts (commit native source projects)
+android/.gradle/
+android/local.properties
+android/**/build/
+ios/App/Pods/
+ios/App/build/
+ios/App/DerivedData/
+*.xcuserstate
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+.sourcemaps

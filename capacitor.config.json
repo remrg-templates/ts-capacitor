@@ -1,0 +1,10 @@
+{
+	"appId": "com.{{ remrg:var organization }}.{{ remrg:var project-name }}",
+	"appName": "{{ remrg:var project-name }}",
+	"webDir": "dist",
+	"plugins": {
+		"SplashScreen": {
+			"launchAutoHide": false
+		}
+	}
+}

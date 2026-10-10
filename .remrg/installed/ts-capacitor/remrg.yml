@@ -1,7 +1,7 @@
 name: remrg/ts-capacitor
 
 version: 1.0.0
-description: 'Remrg TypeScript Capacitor scaffold'
+description: 'Remrg TypeScript Capacitor mobile application'
 type: feature
 license: MIT
 access: public

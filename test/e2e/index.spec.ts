@@ -5,4 +5,7 @@ test('homepage has expected title', async ({ page }) => {
 
 	// Adjust this according to your actual index.html title
 	await expect(page).toHaveTitle(/.*{{ remrg:var project-name }}.*/);
+	await expect(page.getByRole('status')).toHaveText(
+		'Web preview: native app APIs are unavailable'
+	);
 });

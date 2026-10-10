@@ -2,6 +2,27 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "npm run native:sync",
+			"type": "shell",
+			"command": "npm",
+			"args": ["run", "native:sync"],
+			"problemMatcher": []
+		},
+		{
+			"label": "npm run native:run:android",
+			"type": "shell",
+			"command": "npm",
+			"args": ["run", "native:run:android"],
+			"problemMatcher": []
+		},
+		{
+			"label": "npm run native:run:ios",
+			"type": "shell",
+			"command": "npm",
+			"args": ["run", "native:run:ios"],
+			"problemMatcher": []
+		},
+		{
 			"label": "npm run build",
 			"type": "shell",
 			"command": "npm",
